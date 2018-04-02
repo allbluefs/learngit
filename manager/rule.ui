@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rule</class>
+ <widget class="QDialog" name="rule">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>151</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTreeWidget" name="treeWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>541</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>分数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>质量尺度</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>妨碍尺度</string>
+    </property>
+   </column>
+   <item>
+    <property name="text">
+     <string>5分</string>
+    </property>
+    <property name="text">
+     <string>非常好</string>
+    </property>
+    <property name="text">
+     <string>完全无法观察出图像的质量有所损坏</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4分</string>
+    </property>
+    <property name="text">
+     <string>好</string>
+    </property>
+    <property name="text">
+     <string>可以看到图像有一些损坏，可是不会妨碍观测</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3分</string>
+    </property>
+    <property name="text">
+     <string>一般</string>
+    </property>
+    <property name="text">
+     <string>可以观察到图像有很大的损坏，会对观察造成妨碍</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2分</string>
+    </property>
+    <property name="text">
+     <string>差</string>
+    </property>
+    <property name="text">
+     <string>对观看有妨碍</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>1分</string>
+    </property>
+    <property name="text">
+     <string>非常差</string>
+    </property>
+    <property name="text">
+     <string>对观测造成了及其严重的妨碍</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
